@@ -197,16 +197,6 @@ body {
   transform: translateY(-10px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
-.box{
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  height: 28px;
-  width: 40px;
-  background-color: #3fb4d5;
-  border-bottom-right-radius: 10px;
-}
-
 .articleSection img {
   border-radius: 50%;
   transition: transform 0.3s ease-in-out;
@@ -226,15 +216,6 @@ body {
   align-items: center;
   text-align: center;
   position: relative;
-}
-.box1{
-  contain: "";
-  border-bottom: 3.5px solid #0623e2;
-  width: 80px;
-  position: absolute;
-  top: 50%;
-  left: 46%;
-  margin-top: -25px;
 }
 .cardSection{
   display: flex;
@@ -313,14 +294,6 @@ body {
   text-align: center;
   position: relative;
 }
-.test{
-  margin-bottom: 10px;
-  border-bottom: 2px solid #0623e2;
-  width: 70px;
-  position: absolute;
-  top: 65px;
-  left: 47%;
-}
 .testimonialSection{
   background-color: #fffefe;
   width: 300px;
@@ -358,6 +331,7 @@ body {
   align-items: center;
   text-align: center;
   margin-top: 60px;
+  position: relative;
 }
 .touchFormContainer{
   background-color: #f5f8f8;
@@ -414,14 +388,6 @@ body {
   margin-left: 10px;
 
 }
-.page{
-  border: 1.5px solid #ffffff;
-  width: 90px;
-  border-radius: 10px;
-  position: absolute;
-  top: 60px;
-  left: 300px;
-}
 .news{
   border: 1.5px solid #ffffff;
   width: 90px;
@@ -462,13 +428,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-.fooetrline{
-  border-bottom: 4px solid #552fec;
-  width: 55px;
-  position: absolute;
-  top: 85px;
-  left: 15px;
+  position: relative;
 }
 .footertitle{
   font-size: 14px;
@@ -486,4 +446,98 @@ body {
     transform: translateX(-10px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
   }
+}
+.box1{
+  border-bottom: 3px solid #0072ff;
+  width: 60px;
+  border-radius: 10px;
+  position: absolute;
+  top: 40px;
+  left: 590px;
+
+}
+.box2{
+  border-bottom: 3px solid #0072ff;
+  width: 100px;
+  border-radius: 10px;
+  position: absolute;
+  top: 40px;
+  left: 590px;
+
+}
+.box3{
+  border-bottom: 3px solid #0072ff;
+  width: 60px;
+  border-radius: 10px;
+  position: absolute;
+  top: 40px;
+  left: 590px;
+
+}
+.box4{
+  border-bottom: 3px solid #0072ff;
+  width: 100px;
+  border-radius: 10px;
+  position: absolute;
+  top: 65px;
+  left: 550px;
+
+}
+.box5{
+  border-bottom: 3px solid #0072ff;
+  width: 100px;
+  border-radius: 10px;
+  position: absolute;
+  top: 45px;
+  left: 560px;
+
+}
+.box6{
+  border-bottom: 3px solid #ffffff;
+  width: 70px;
+  border-radius: 10px;
+  position: absolute;
+  top: 70px;
+  left: 550px;
+
+}
+.box7{
+  border-bottom: 3px solid #0072ff;
+  width: 100px;
+  border-radius: 10px;
+  position: absolute;
+  top: 45px;
+  left: 380px;
+}
+.box8{
+  border-bottom: 3px solid #0072ff;
+  width: 50px;
+  border-radius: 10px;
+  position: absolute;
+  top: 85px;
+  left: 55px;
+}
+.box9{
+  border-bottom: 3px solid #0072ff;
+  width: 50px;
+  border-radius: 10px;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+}
+.box10{
+  border-bottom: 3px solid #0072ff;
+  width: 50px;
+  border-radius: 10px;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+}
+.box11{
+  border-bottom: 3px solid #0072ff;
+  width: 50px;
+  border-radius: 10px;
+  position: absolute;
+  top: 25px;
+  left: 0px;
 }
